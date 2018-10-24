@@ -28,10 +28,10 @@
             return {
                 isAppReady: false,
                 isAuth: true,
-                showWelcome: false
+                showWelcome: true
             };
         },
-        created() {
+        mounted() {
             this.loadFonts();
         },
         methods: {

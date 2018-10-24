@@ -1,8 +1,6 @@
 
 <template>
     <root>
-        <!--<welcome-screen v-if="showWelcomeScreen"></welcome-screen>
-        <auth-login-screen v-if="!isAuth"></auth-login-screen>-->
         <app-navigation></app-navigation>
     </root>
 </template>
